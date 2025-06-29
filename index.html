@@ -17,27 +17,28 @@
       text-align: center;
       color: #0052cc;
     }
-    p.description {
-      text-align: center;
-      color: #666;
+    .company {
+      margin: 2rem 0 1rem;
+      font-size: 1.3rem;
+      color: #333;
     }
-    ul {
+    ul.jobs {
       list-style: none;
       padding: 0;
     }
-    li {
+    ul.jobs li {
       background: #fff;
       margin: 0.5rem 0;
-      padding: 1rem;
+      padding: 0.75rem 1rem;
       border-radius: 6px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     }
-    li a {
+    ul.jobs li a {
       text-decoration: none;
       color: #0052cc;
       font-weight: bold;
     }
-    li small {
+    ul.jobs li small {
       display: block;
       margin-top: 0.25rem;
       color: #666;
@@ -53,25 +54,46 @@
 <body>
 
   <h1>My Personal Job Board</h1>
-  <p class="description">Companies I want to keep an eye on for job openings</p>
-
-  <ul>
-    <li>
-      <a href="https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers?locationCountry=c4f78be1a8f14da0ab49ce1162348a5e&Job_Family=1408861ee6e201641be2c2f6b000c00b&Job_Family=cb19f044639b1001f6a02595bc920000" target="_blank">Crowdstrike</a>
-      <small>Software, Remote, Security</small>
-    </li>
-    <li>
-      <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite?locationHierarchy1=2fcb99c455831013ea52b82135ba3266&timeType=5509c0b5959810ac0029943377d47364&jobFamilyGroup=0c40f6bd1d8f10ae43ffaefd46dc7e78" target="_blank">Nvidia</a>
-      <small>Software and kernel, Hybrid</small>
-    </li>
-    
-    <!-- Add more companies here -->
-  </ul>
+  <div id="jobs"></div>
 
   <footer>
-    Last updated: June 29, 2025<br>
-    Made for my personal career tracking.
+    Last updated from jobs.json · Built with GitHub Pages
   </footer>
+
+  <script>
+    fetch('jobs.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Could not load jobs.json');
+        }
+        return response.json();
+      })
+      .then(data => {
+        const jobsDiv = document.getElementById('jobs');
+        data.forEach(company => {
+          const h2 = document.createElement('h2');
+          h2.className = 'company';
+          h2.textContent = company.company;
+          jobsDiv.appendChild(h2);
+
+          const ul = document.createElement('ul');
+          ul.className = 'jobs';
+
+          company.jobs.forEach(job => {
+            const li = document.createElement('li');
+            li.innerHTML = `<a href="${job.url}" target="_blank">${job.title}</a>
+                            <small>${job.location}</small>`;
+            ul.appendChild(li);
+          });
+
+          jobsDiv.appendChild(ul);
+        });
+      })
+      .catch(err => {
+        console.error('Error loading jobs:', err);
+        document.getElementById('jobs').innerHTML = '<p>Could not load jobs. Try again later.</p>';
+      });
+  </script>
 
 </body>
 </html>
