@@ -58,21 +58,6 @@
     "company": "NVIDIA",
     "jobs": [
       {
-        "title": "Senior System Software Engineer",
-        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Hyderabad/Senior-System-Software-Engineer_JR1999399",
-        "location": "2 Locations"
-      },
-      {
-        "title": "Senior System Software Engineer",
-        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer_JR1999482",
-        "location": "2 Locations"
-      },
-      {
-        "title": "Senior Deep Learning Systems Software Engineer - AI Infrastructure",
-        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Deep-Learning-Systems-Software-Engineer---AI-Infrastructure_JR1986479",
-        "location": "2 Locations"
-      },
-      {
         "title": "Senior Systems Software Engineer - Linux Kernel Drivers",
         "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Pune/Senior-Systems-Software-Engineer---Linux-Kernel-Drivers_JR1999338",
         "location": "2 Locations"
@@ -106,6 +91,21 @@
         "title": "Wi-Fi and BT Software Engineer",
         "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Hyderabad/Wi-Fi-and-BT-Software-Engineer_JR1999047-1",
         "location": "India, Hyderabad"
+      },
+      {
+        "title": "System Software Engineer, DGX Spark",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/System-Software-Engineer--DGX-Spark_JR1998979",
+        "location": "2 Locations"
+      },
+      {
+        "title": "Senior System Software Engineer",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer_JR1999081",
+        "location": "2 Locations"
+      },
+      {
+        "title": "Senior System Software Engineer",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer_JR1998684",
+        "location": "2 Locations"
       }
     ]
   }
