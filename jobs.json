@@ -1,12 +1,112 @@
 [
   {
     "company": "CrowdStrike",
-    "total": 0,
-    "jobs": []
+    "jobs": [
+      {
+        "title": "Engineer III - Sensor SDET",
+        "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/India---Pune/Engineer-III---Sensor-SDET--Remote-_R23730",
+        "location": "India - Pune"
+      },
+      {
+        "title": "Sr. Infrastructure Engineer, NG-SIEM",
+        "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/India---Bangalore/Sr-Engineer--NG-SIEM_R23592",
+        "location": "India - Bangalore"
+      },
+      {
+        "title": "Engineer III - Backend",
+        "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/India---Bangalore/Engineer-III---Backend_R23620",
+        "location": "India - Bangalore"
+      },
+      {
+        "title": "Sr. Engineer - Content SDET (Remote)",
+        "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/India---Remote-MH/Sr-Engineer---Sensor-SDET--Remote-_R23104-1",
+        "location": "India - Remote, MH"
+      },
+      {
+        "title": "Sr. Engineer - Backend",
+        "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/India---Bangalore/Sr-Engineer---Backend_R23630",
+        "location": "India - Bangalore"
+      },
+      {
+        "title": "Sr. Engineer, TechOps CICD Platform",
+        "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/India---Bangalore/Infrastructure-Engineering-Manager--TechOps-CICD_R23332",
+        "location": "India - Bangalore"
+      },
+      {
+        "title": "Engineer III - Content Systems",
+        "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/India---Pune/Engineer-III---Content-Systems--Remote--IND-_R22956",
+        "location": "India - Pune"
+      },
+      {
+        "title": "Engineer III - Systems Infrastructure",
+        "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/India---Bangalore/Engineer-III---Systems-Infrastructure_R23335",
+        "location": "India - Bangalore"
+      },
+      {
+        "title": "Sr. Engineer - InfraEng Observability",
+        "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/India---Pune/Engineering-Manager---Observability_R21571",
+        "location": "India - Pune"
+      },
+      {
+        "title": "Engineer III - ML Platform (Remote, IND)",
+        "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/India---Remote-MH/Engineer-III---ML--Remote-_R19770",
+        "location": "15 Locations"
+      }
+    ]
   },
   {
     "company": "NVIDIA",
-    "total": 0,
-    "jobs": []
+    "jobs": [
+      {
+        "title": "Platform Validation Engineer",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Pune/Platform-Reliability-Engineer_JR1996855-1",
+        "location": "2 Locations"
+      },
+      {
+        "title": "DevOps Engineer - Compiler",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Pune/DevOps-Engineer---Compiler_JR1999332",
+        "location": "2 Locations"
+      },
+      {
+        "title": "Senior Verification Engineer - Hardware",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Verification-Engineer---Hardware_JR1998821",
+        "location": "2 Locations"
+      },
+      {
+        "title": "ASIC Design Engineer - Security Subsystem",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/ASIC-Design-Engineer---Security-Subsystem_JR1998820",
+        "location": "2 Locations"
+      },
+      {
+        "title": "HSIO Electrical Validation Engineer",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/HSIO-Electrical-Validation-Engineer_JR1999344",
+        "location": "India, Bengaluru"
+      },
+      {
+        "title": "Senior Timing and Circuit Design Engineer",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Timing-and-Circuit-Design-Engineer_JR1999357",
+        "location": "India, Bengaluru"
+      },
+      {
+        "title": "Silicon Solutions Engineer",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Silicon-Solutions-Engineer_JR1999174",
+        "location": "India, Bengaluru"
+      },
+      {
+        "title": "Senior Custom SOC IP Verification Engineer",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Custom-SOC-IP-Verification-Engineer_JR1999414",
+        "location": "India, Bengaluru"
+      },
+      {
+        "title": "Senior System Software Engineer",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Hyderabad/Senior-System-Software-Engineer_JR1999399",
+        "location": "2 Locations"
+      },
+      {
+        "title": "Senior System Software Engineer",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer_JR1999482",
+        "location": "2 Locations"
+      }
+    ]
   }
 ]
